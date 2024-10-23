@@ -36,6 +36,6 @@ public class Main {
         var overload = (stuffWeight + productsWeight) % liftingCapacity ;
         System.out.println ("Перегруз на " + overload + " кг!");
         var productsInOneCare = productsWeight / 2;
-        System.out.println("Продуктов в одной машине теперь " + productsInOneCare +" кг!");
+        System.out.println("Продуктов в одной машине теперь " + productsInOneCare +" кг! ");
     }
 }
