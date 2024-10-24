@@ -86,6 +86,6 @@ var employeesInTheCompany = totalHours / 8;
         var employeesInTheCompanyWithNewAdditions = (employeesInTheCompany + replenishment);
         System.out.println(employeesInTheCompanyWithNewAdditions);
         var hoursOfWorkWithReplenishment = (employeesInTheCompany + replenishment) * 8;
-        System.out.println ( "Если в компании работает " + employeesInTheCompanyWithNewAdditions + " человека, то всего " + hoursOfWorkWithReplenishment + " часов работы может быть поделено между сотрудниками");
+        System.out.println ( "Если в компании работает " + employeesInTheCompanyWithNewAdditions + " человека, то всего " + hoursOfWorkWithReplenishment + " часов работы может быть поделено между сотрудниками!");
     }
 }
